@@ -1,0 +1,22 @@
+[
+  {
+  "id": "1",
+  "company": "Geev",
+  "category": "Trocs, dons"
+  },
+  {
+  "id": "2",
+  "company": "To Good To Go",
+  "category": "Alimentaire"
+  },
+  {
+  "id": "3",
+  "company": "Ecoguide IT",
+  "category": "Technologie"
+  },
+  {
+  "id": "4",
+  "company": "Yuka",
+  "category": "Alimentaire, Santé"
+  }
+  ] 

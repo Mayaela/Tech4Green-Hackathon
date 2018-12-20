@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Route, Switch } from 'react-router-dom';
 import SearchBar from './components-pages/SearchBar';
+import Carte from './components-pages/Carte';
 import './App.scss';
 
 class App extends Component {
@@ -21,6 +22,7 @@ class App extends Component {
           <Route onUpdate={window.scrollTo(0, 0)} path="/sengager" component={PageSengager} /> */}
         </Switch>
         <SearchBar />
+        <Carte />
       </div>
     );
   }

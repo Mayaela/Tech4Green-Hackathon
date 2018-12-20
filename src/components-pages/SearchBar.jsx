@@ -22,7 +22,7 @@ class SearchBar extends Component {
       const match = new RegExp(escapeRegExp(this.state.query), 'i')
       showingApplications = Applist.filter((appli) => match.test(appli.company))
     } else{
-      showingApplications = Applist;
+      showingApplications = [];
     }
 
     return (
@@ -34,14 +34,14 @@ class SearchBar extends Component {
           placeholder="Search Application"
         />
           <button>Search</button>
-        <ol className='application-list'>
+        <ul className='application-list'>
           {showingApplications.map((appli) => (
             <li key={appli.id} className='application-list-name'>
               {appli.company}
             </li>
           ))
           }
-        </ol>
+        </ul>
       
       </div>
     );

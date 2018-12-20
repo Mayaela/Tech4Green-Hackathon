@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './NavBar.scss';
 import { Link } from 'react-router-dom';
 import {
@@ -11,7 +11,7 @@ import {
   Button,
 } from 'reactstrap';
 
-export default class NavBar extends React.Component {
+class NavBar extends Component {
   constructor(props) {
     super(props);
 
@@ -31,7 +31,7 @@ export default class NavBar extends React.Component {
     const { collapsed } = this.state;
     return (
       <div className="NavBar">
-        <Navbar light expand="md">
+        <Navbar className="bar-menu" light expand="lg">
           <NavbarBrand>
             <Link to="/">
               <img
@@ -100,3 +100,5 @@ export default class NavBar extends React.Component {
     );
   }
 }
+
+export default NavBar;

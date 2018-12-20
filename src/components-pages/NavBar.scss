@@ -1,0 +1,21 @@
+@import '../App.scss';
+
+.NavBar {
+  box-shadow: 1px 0.5px grey;
+  .button-category {
+    border: 1px solid $primaryColor;
+    background-color: white;
+    margin: 1rem 1rem;
+    .lien-category {
+      color: $primaryColor;
+      &:hover{
+        text-decoration: none;
+        color: white;
+      }
+    }
+    &:hover {
+      background-color: $primaryColor;
+    }
+
+  }
+}

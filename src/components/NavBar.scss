@@ -1,25 +1,26 @@
 @import '../App.scss';
 
 .NavBar {
-  box-shadow: 1px 0.5px grey;
+
+  img {
+    width: 6rem
+  }
+  box-shadow: 1px 0.5px 1px rgba(128, 128, 128, 0.582);
   .button-category {
     border: 1px solid $primaryColor;
     background-color: white;
     margin: 1rem 0.25rem;
     padding: 0.5rem 0.5rem;
-    box-shadow: 1px 1px grey;
-    .lien-category {
-      color: $primaryColor;
-      &:hover{
+    box-shadow: 1px 1px 1px rgba(128, 128, 128, 0.575);
+    color: $primaryColor;
+      &:hover, &:focus, &.active {
         text-decoration: none;
         color: white;
+        background-color: $primaryColor;
+
       }
     }
-    &:hover {
-      background-color: $primaryColor;
-    }
 
-  }
   .bar-menu {
     padding-left: 0px;
     padding-right: 0px;

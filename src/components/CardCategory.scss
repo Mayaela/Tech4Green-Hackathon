@@ -1,7 +1,36 @@
-.CardCategory{
-  padding-left: 20px;
-  padding-right: 20px;
-  .button-color {
-    background-color: #98C11E;
+@import '../App.scss';
+
+.CardCategory {
+  .card.card-size {
+    margin : 1rem;
+    .image-size {
+      background-color: black;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 15rem;
+      card-img {
+        height: 100%;
+        width: auto;
+        overflow: hidden;
+      }
+    }
   }
+  .card-body {
+    padding: 1rem;
+    padding-left:2rem;
+    .card-title {
+      padding: 0;
+    }
+    
+    .button-category {
+      background: transparent;
+      border:none;
+      padding: 0;
+      color: $primaryColor;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
 }

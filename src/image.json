@@ -1,42 +1,42 @@
 [
   {
     "image":"/medias/images/alimentation.jpeg",
-    "title":"alimentation"
+    "title":"Alimentation"
   },
   {
     "image":"/medias/images/dons et trocs.jpg",
-    "title":"dons et trocs"
+    "title":"Dons & Troc"
   },
   {
     "image":"/medias/images/maison écologique.jpg",
-    "title":"maison écologique"
+    "title":"Maison écolo"
   },
   {
     "image":"/medias/images/mode.jpeg",
-    "title":"mode"
+    "title":"Mode"
   },
   {
     "image":"/medias/images/occasions 2.jpeg",
-    "title":"occasions"
+    "title":"Occasions"
   },
   {
     "image":"/medias/images/réparations.jpeg",
-    "title":"réparations"
+    "title":"Réparations"
   },
   {
     "image":"/medias/images/s_engager.jpeg",
-    "title":"s_engager"
+    "title":"S'engager"
   },
   {
     "image":"/medias/images/santé.jpeg",
-    "title":"santé"
+    "title":"Santé"
   },
   {
     "image":"/medias/images/technologie.png",
-    "title":"technologie"
+    "title":"Technologie"
   },
   {
     "image":"/medias/images/transport.jpeg",
-    "title":"transport"
+    "title":"Transports"
   }
 ]

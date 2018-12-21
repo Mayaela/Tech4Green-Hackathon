@@ -1,0 +1,285 @@
+[{
+  "id": 1,
+  "Company": "Planet Ocean",
+  "Category": "Alimentation",
+  "Language": "Anglais",
+  "Price": "gratuit",
+  "Support": "Android, Iphone"
+},
+{
+  "id": 2,
+  "Company": "Too Good To Go",
+  "Category": "Alimentation",
+  "Language": "Français, Allemand, Anglais, Basque, Catalan, Danois, Espagnol, Galicien, Norvégien, Néerlandais",
+  "Price": "gratuit",
+  "Description": "Tout le principe de Too Good To Go repose sur le panier surprise, composé des invendus du jour des commerçants. Ces derniers sont en pleine forme et n'attendent que toi pour les manger !",
+  "Support": "Web, Android, Iphone",
+  "Lien": "https://toogoodtogo.fr/fr"
+},
+{
+  "id": 3,
+  "Company": "Astuces Ecolo",
+  "Category": "Alimentation, Général",
+  "Language": "Français, Anglais",
+  "Price": "gratuit",
+  "Description": "Astuces Ecolo vous permet de découvrir les gestes habituels qui sauveront la planète. L’application a aussi compilé les meilleurs gestes écologiques du quotidien pratiqués partout dans le monde pour les petits comme pour les grands.",
+  "Support": "Iphone"
+},
+{
+  "id": 4,
+  "Company": "Fruits et légumes de saison",
+  "Category": "Alimentation",
+  "Language": "Français",
+  "Price": "gratuit",
+  "Description": "Cette application permet aux consommateurs de respecter le cycle des fruits et des légumes en évitant l’achat hors saison.",
+  "Support": "Android, Iphone"
+},
+{
+  "id": 5,
+  "Company": "Vinted",
+  "Category": "Mode",
+  "Language": "Français",
+  "Price": "gratuit",
+  "Description": "Cette appli répertorie plus de 100 marques de vêtements dites éthiques. Elle dresse leur bilan sur l’engagement social et environnemental. Une façon d’en savoir plus sur ceux qui nous habillent et à qui nous donnons notre argent.",
+  "Support": "Android, Iphone"
+},
+{
+  "id": 6,
+  "Company": "Fair Fashion",
+  "Category": "Mode",
+  "Language": "Français, Allemand, Anglais, Polonais",
+  "Price": "gratuit",
+  "Description": "Cette appli répertorie plus de 100 marques de vêtements dites éthiques. Elle dresse leur bilan sur l’engagement social et environnemental. Une façon d’en savoir plus sur ceux qui nous habillent et à qui nous donnons notre argent.",
+  "Support": "Android, Iphone"
+},
+{
+  "id": 7,
+  "Company": "Good on you",
+  "Category": "Mode",
+  "Language": "Anglais",
+  "Price": "gratuit",
+  "Description": "l'application australienne Good On You propose d'analyser le respect des marques de mode à l'égard de trois critères éthiques : l'environnement, les animaux et l'humain. Plus de 1.000 enregistrées et classées selon leur rapport à l'environnement, la faune et les conditions de travail.",
+  "Support": "Web, Android, Iphone"
+},
+{
+  "id": 8,
+  "Company": "Depop",
+  "Category": "Mode",
+  "Language": "Anglais, Italien",
+  "Price": "gratuit",
+  "Description": "Depop est le marché mobile incontournable de la communauté créative. Achetez des vêtements uniques, achetez et vendez vos baskets, streetwear, pièces vintage, partagez votre style et rencontrez la communauté Depop dans le confort de votre téléphone.",
+  "Support": "Web, Android, Iphone",
+  "Lien": "https://www.depop.com"
+},
+{
+  "id": 9,
+  "Company": "Natur'Home",
+  "Category": "Santé",
+  "Language": "Français, Anglais",
+  "Price": "gratuit sur Android, 2,29€ sur Apple Store",
+  "Description": "Cette application vous aidera grâce aux huiles essentielles, l’homéopathie, la gemmathérapie, la lithothérapie les bienfaits de l'alimentation et même vos recettes de grand-mère santé. Trouver vos maux, cherchez votre traitement pour un confort de santé naturel.",
+  "Support": "Android, Iphone"
+},
+{
+  "id": 10,
+  "Company": "Breathe Up",
+  "Category": "Santé",
+  "Language": "Français, Anglais",
+  "Price": "gratuit",
+  "Description": "Limitez votre exposition à la pollution de l'air grâce à Breathe Up. Développée en partenariat avec des professionnels de la qualité de l'air et de la santé, Breathe Up vous apporte une information détaillée pour évaluer avec précision les niveaux de pollution de l'air de votre environnement.",
+  "Support": "Web, Android, Iphone",
+  "Lien" : "https://groupe-tera.com/breathe-up-2/"
+},
+{
+  "id": 11,
+  "Company": "Plum Labs",
+  "Category": "Santé",
+  "Language": "Français, Anglais, Arabe, Espagnol, Italien",
+  "Price": "gratuit",
+  "Description": "Cette mise à jour majeure vous donne accès à des prévisions sur la qualité de l’air dans toutes les villes du monde. Une couverture mondiale de l’Alabama au Zanzibar pour vous aider à trouver l’air pur.",
+  "Support": "Android, Iphone",
+  "Lien" : "https://plumelabs.com/fr/"
+},
+{
+  "id": 12,
+  "Company": "Yuka",
+  "Category": "Santé, Beauté",
+  "Language": "Français",
+  "Price": "gratuit",
+  "Description": "Faites les bons choix alimentaires pour votre santé avec Yuka ! Yuka scanne votre alimentation pour vous aider à mieux manger. Tableau nutritionnel, liste d'ingrédients, additifs ... : l'application décrypte pour vous les étiquettes des produits et vous recommande le meilleur pour votre santé.",
+  "Support": "Web, Android, Iphone",
+  "Lien" : "https://yuka.io"
+},
+{
+  "id": 13,
+  "Company": "Guide du tri par eco emballages",
+  "Category": "Maison écolo",
+  "Language": "Français",
+  "Price": "gratuit",
+  "Description": "Que faire de vos emballages, piles, médicaments, pots de peinture, jouets et textiles ? Un doute sur leur consigne de tri ? Bienvenue sur le Guide du Tri ! La première application mobile qui vous facilite le tri au quotidien. Si si, on vous dit tout…",
+  "Support": "Web, Android, Iphone",
+  "Lien" : "http://www.ecoemballages.fr/grand-public/trier-cest-facile/le-guide-du-tri"
+},
+{
+  "id": 14,
+  "Company": "Zero Waste Objective",
+  "Category": "Maison écolo",
+  "Language": "Français, Anglais",
+  "Price": "gratuit",
+  "Description": "L'application Zero Waste Objective propose une liste de défis permettant d'aller vers le zéro déchet. Vous pouvez ainsi utiliser cette application tel un coach personnel pour devenir le héro du zéro déchet que la planète attend.",
+  "Support": "Android"
+},
+{
+  "id": 15,
+  "Company": "90 jours",
+  "Category": "Santé",
+  "Language": "Français",
+  "Price": "gratuit",
+  "Description": "90jours est un assistant personnel pour changer le monde. Une application mobile qui, à la manière d’un coach pour arrêter de fumer ou se mettre au sport, vous accompagne au quotidien pour changer facilement et durablement vos habitudes afin de contribuer à un changement de société plus écologique, plus égalitaire et de construire une société plus vertueuse.",
+  "Support": "Web, Android, Iphone",
+  "Lien" : "https://90jours.org"
+},
+{
+  "id": 16,
+  "Company": "Wag - We Act for Good",
+  "Category": "Généraliste",
+  "Language": "Français",
+  "Price": "gratuit",
+  "Description": "WAG est une application lifestyle qui vous aide à être plus éco-responsable à travers quelques réflexes faciles à adopter dans votre quotidien. Mieux manger, réduire votre consommation énergétique, optimiser votre mobilité, préparer vos propres cosmétiques, ne plus gaspiller, trier, consommer bio et durable…",
+  "Support": "Web, Android, Iphone"
+},
+{
+  "id": 17,
+  "Company": "Breathe Up",
+  "Category": "Santé",
+  "Language": "Français, Anglais",
+  "Price": "gratuit",
+  "Description": "Limitez votre exposition à la pollution de l'air grâce à Breathe Up. Développée en partenariat avec des professionnels de la qualité de l'air et de la santé, Breathe Up vous apporte une information détaillée pour évaluer avec précision les niveaux de pollution de l'air de votre environnement.",
+  "Support": "Web, Android, Iphone",
+  "Lien" : "https://www.wwf.fr/agir-au-quotidien/we-act-for-good"
+},
+{
+  "id": 18,
+  "Company": "Klaxit",
+  "Category": "Mobilité",
+  "Language": "Français, Anglais",
+  "Price": "gratuit",
+  "Description": "Retrouvez plus de 350 000 trajets proposés chaque jour sur l'application Klaxit, leader français du covoiturage domicile-travail. Partagez vos trajets domicile-travail avec la plus grande communauté de covoitureurs. Avec Klaxit, gagnez du temps, de l'argent tout en faisant un geste pour l'environnement !",
+  "Support": "Web, Android, Iphone"
+},
+{
+  "id": 19,
+  "Company": "Openbike Now",
+  "Category": "Mobilité",
+  "Language": "Français",
+  "Price": "gratuit",
+  "Description": "Avec un design simple et ergonomique vous pourrez trouver la station la plus proche avec un vélo de disponible ou un emplacement libre pour vous garer.",
+  "Support": "Web, Android",
+  "Lien" : "http://openbikenow.com"
+},
+{
+  "id": 20,
+  "Company": "Chargemap",
+  "Category": "Mobilité",
+  "Language": "Français, Allemand, Anglais, Espagnol, Italien, Néerlandais, Portugais",
+  "Price": "gratuit",
+  "Description": "Vous voulez trouver les bornes de recharge en un clin d’oeil ? Planifier un trajet plus long que d’habitude ou simplement trouver les bornes de recharge rapide autour de chez vous ? Chargemap est l’application qu’il vous faut !",
+  "Support": "Web, Android, Iphone",
+  "Lien" : "https://fr.chargemap.com"
+},
+{
+  "id": 21,
+  "Company": "Indigo Weel",
+  "Category": "Mobilité",
+  "Language": "Français, Anglais, Espagnol",
+  "Price": "gratuit",
+  "Description": "INDIGO® weel est une offre de vélos en libre-service, partagés et sans station.",
+  "Support": "Web, Android, Iphone",
+  "Lien" : "https://www.indigoweel.com"
+},
+{
+  "id": 22,
+  "Company": "EcoGuide IT",
+  "Category": "Technologie",
+  "Language": "Français, Anglais, Espagnol, Italien",
+  "Price": "gratuit",
+  "Description": "L’ECOGUIDE IT évalue et compare pour vous les matériels selon trois critères socio-environnementaux : la RSE du constructeur, le cycle de vie du produit et sa consommation énergétique.",
+  "Support": "Web",
+  "Lien" : "http://www.ecoguide-it.com/fr/"
+},
+{
+  "id": 23,
+  "Company": "Lilo browser",
+  "Category": "Technologie",
+  "Language": "Français, Allemand, Anglais, Arabe, Bulgare, Catalan, Chinois simplifié, Chinois traditionnel, Coréen, Croate, Danois, Espagnol, Finnois, Grec, Hindi, Hongrois, Hébreu, Indonésien, Italien, Japonais, Lituanien, Malais, Norvégien, Néerlandais, Persan, Polonais, Portugais, Roumain, Russe, Serbe, Slovaque, Suédois, Tchèque, Thaï, Turc, Ukrainien, Vietnamien",
+  "Price": "gratuit",
+  "Description": "Lilo est un moteur de recherche qui finance des projets sociaux et environnementaux, et compense les émissions carbones de ses serveurs et des serveurs tiers qu’il utilise.",
+  "Support": "Android, Iphone"
+},
+{
+  "id": 24,
+  "Company": "Ecogator",
+  "Category": "Technologie",
+  "Language": "Français, Allemand, Anglais, Arabe, Chinois simplifié, Chinois traditionnel, Danois, Espagnol, Grec, Hébreu, Italien, Norvégien, Néerlandais, Polonais, Portugais, Russe, Slovène, Suédois, Tchèque, Turc",
+  "Price": "gratuit",
+  "Description": "En magasin ou confortablement installé dans son salon, consultez ecoGator pour trouver à coup sûr les appareils les plus économes en énergie.",
+  "Support": "Android, Iphone"
+},
+{
+  "id": 25,
+  "Company": "My Troc",
+  "Category": "Dons, trocs",
+  "Language": "Français",
+  "Price": "gratuit",
+  "Description": "Pour les amateurs de bons plans, du système D, pour tous les écolos et pour tous ceux qui ont envie de consommer autrement, consommer responsable, MyTroc est un moyen simple et inédit de prêter et d'échanger en ligne des biens et des services.",
+  "Support": "Web",
+  "Lien" : "https://mytroc.fr"
+},
+{
+  "id": 26,
+  "Company": "Ruecup",
+  "Category": "Dons, trocs",
+  "Language": "Français",
+  "Price": "gratuit",
+  "Description": "Ruecup est une application unique en son genre ayant pour seul but la récupération des objets laissés dans la rue. En quelques secondes, recherchez, localisez, récupérez ou signalez ce qui se trouve sur les trottoirs.",
+  "Support": "Aptoide"
+},
+{
+  "id": 27,
+  "Company": "Geev",
+  "Category": "Dons, trocs",
+  "Language": "Français",
+  "Price": "gratuit",
+  "Description": "GEEV, une solution enrichissante : le don de main à main est une expérience humaine gratifiante. GEEV propose des annonces entre particuliers et encourage les rencontres avec des personnes habitant dans votre ville !",
+  "Support": "Web, Android, Iphone",
+  "Lien" : "https://www.geev.com/"
+},
+{
+  "id": 28,
+  "Company": "Smartcycle",
+  "Category": "Dons, trocs",
+  "Language": "Français",
+  "Price": "gratuit",
+  "Description": "Smart Cycle est une plateforme de petites annonces d'objets donnés ou abandonnés accessibles gratuitement près de chez vous.",
+  "Support": "Web, Android, Iphone"
+},
+{
+  "id": 29,
+  "Company": "Scell",
+  "Category": "Occasions",
+  "Language": "Français, Anglais, Néerlandais",
+  "Price": "gratuit",
+  "Description": "Scell vous permet de mettre vos articles neufs et de seconde main en vente en moins de 40 secondes",
+  "Support": "Android, Iphone"
+},
+{
+  "id": 30,
+  "Company": "Help my bike",
+  "Category": "Réparation",
+  "Language": "Français",
+  "Price": "gratuit",
+  "Description": "Help My Bike vous libère des soucis d’entretien et de réparation de votre vélo. L’application propose un service professionnel attentif et efficace avec des tarifs transparents et un paiement en ligne sécurisé.",
+  "Support": "Web",
+  "Lien" : "http://www.helpmybike.fr"
+}
+]

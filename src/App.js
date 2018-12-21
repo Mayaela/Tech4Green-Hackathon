@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Route, Switch } from 'react-router-dom';
-import PageApplication from './pages/PageApplication';
+import PageApplication from './pages/PageApplicationGeev';
 import NavBar from './components/NavBar';
 import HomePage from './pages/HomePage';
 import PageAlimentation from './pages/PageAlimentation';
@@ -13,6 +13,8 @@ import PageDonTroc from './pages/PageDonTroc';
 import PageOccasions from './pages/PageOccasions';
 import PageReparation from './pages/PageReparation';
 import PageSengager from './pages/PageSengager';
+import SearchBar from './components/SearchBar';
+import PageApplicationGeev from './pages/PageApplicationGeev';
 
 import './App.scss';
 
@@ -21,6 +23,7 @@ class App extends Component {
     return (
       <div className="App">
         <NavBar />
+        <SearchBar />
         <Switch>
           <Route onUpdate={window.scrollTo(0, 0)} exact path="/" component={HomePage} />
           <Route onUpdate={window.scrollTo(0, 0)} path="/application" component={PageApplication} />
@@ -34,6 +37,9 @@ class App extends Component {
           <Route onUpdate={window.scrollTo(0, 0)} path="/occasions" component={PageOccasions} />
           <Route onUpdate={window.scrollTo(0, 0)} path="/reparation" component={PageReparation} />
           <Route onUpdate={window.scrollTo(0, 0)} path="/sengager" component={PageSengager} />
+          <Route onUpdate={window.scrollTo(0, 0)} path="/application/geev" component={PageApplicationGeev} />
+          {/* <Route onUpdate={window.scrollTo(0, 0)} path="/application/natur'home" component={PageApplicationNaturHome} />
+          <Route onUpdate={window.scrollTo(0, 0)} path="/application/wag" component={PageApplicationWag} /> */}
         </Switch>
     </div>
     );

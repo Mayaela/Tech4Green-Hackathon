@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Applist from '../applist.json';
 import escapeRegExp from 'escape-string-regexp';
 import { Link } from 'react-router-dom';
+import './SearchBar.scss';
 
 class SearchBar extends Component {
   constructor(props) {
@@ -16,6 +17,7 @@ class SearchBar extends Component {
       query: query.trim()
     })
   }
+
 
   render() {
     let showingApplications = [];
@@ -32,14 +34,14 @@ class SearchBar extends Component {
           type="text"
           value={this.state.query}
           onChange={event => this.updateQuery(event.target.value)}
-          placeholder="Rechercher une application ou un site"
+          placeholder="Chercher Application"
         />
-          <button className="button-green">Rechercher</button>
         <ul className='application-list'>
           {showingApplications.map((appli) => (
-            <li key={appli.id} className='application-list-name'>
+            <Link to={`/application/${appli.Company.split(" ").join("").toLowerCase()}`}><li key={appli.id} className='application-list-name'>
               {appli.Company}
             </li>
+            </Link>
           ))
           }
         </ul>

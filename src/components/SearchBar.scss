@@ -2,12 +2,15 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+  margin : 1rem auto;
+  .application-list {
+    list-style-type: none;
+  }
   input {
     min-width: 60%;
     padding: 0.8rem 1rem;
   }
   .container-fluid {
-    background-color: lightseagreen;
     display:flex;
     justify-content: center;
     flex-direction: column;
@@ -19,6 +22,5 @@
   }
   .button-green {
     width: fit-content;
-
   }
 } 

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Route, Switch } from 'react-router-dom';
-import PageApplication from './pages/PageApplication';
+import PageApplication from './pages/PageApplicationGeev';
 import NavBar from './components/NavBar';
 import HomePage from './pages/HomePage';
 import PageAlimentation from './pages/PageAlimentation';
@@ -16,7 +16,9 @@ import PageSengager from './pages/PageSengager';
 import PageCatégories from './pages/PageCatégories';
 import SearchBar from './components/SearchBar';
 import {Container} from 'reactstrap';
-
+import SearchBar from './components/SearchBar';
+import PageApplicationGeev from './pages/PageApplicationGeev';
+import PageFormulaireAvis from './pages/PageFormulaireAvis';
 
 import './App.scss';
 
@@ -40,6 +42,8 @@ class App extends Component {
             <Route onUpdate={window.scrollTo(0, 0)} path="/occasions" component={PageOccasions} />
             <Route onUpdate={window.scrollTo(0, 0)} path="/reparation" component={PageReparation} />
             <Route onUpdate={window.scrollTo(0, 0)} path="/sengager" component={PageSengager} />
+            <Route onUpdate={window.scrollTo(0, 0)} path="/application/geev" component={PageApplicationGeev} />
+            <Route onUpdate={window.scrollTo(0, 0)} path="/formulaire-avis" component={PageFormulaireAvis} />
             <Route onUpdate={window.scrollTo(0, 0)} path="/categories" component={PageCatégories} />
           </Switch>
         </section>
@@ -53,7 +57,8 @@ class App extends Component {
             </li>
           </ul>
         </Container>
-      </div>
+    </div>
+
     );
   }
 }

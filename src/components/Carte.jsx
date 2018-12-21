@@ -11,9 +11,9 @@ import {
 import './Carte.scss';
 import Image from '../image.json';
 
-const Carte = (props) => {
+const CardCategory = (props) => {
   return (
-    <div className="Carte">
+    <div className="CardCategory">
       <Row>
         {
           Image.map((oneimage) => (
@@ -24,7 +24,7 @@ const Carte = (props) => {
               </div>
                 <CardBody>
                   <CardTitle>{oneimage.title}</CardTitle>
-                  <Button className="button-color">Plus Détails</Button>
+                  <Button className="button-color">Explorer</Button>
                 </CardBody>
               </Card>
             </Col>
@@ -35,4 +35,4 @@ const Carte = (props) => {
   );
 };
 
-export default Carte;
+export default CardCategory;

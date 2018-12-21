@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Route, Switch } from 'react-router-dom';
-import Application from './components/Application';
+import PageApplication from './components/PageApplication';
 import NavBar from './components/NavBar';
 import HomePage from './pages/HomePage';
 import PageAlimentation from './pages/PageAlimentation';
@@ -23,7 +23,7 @@ class App extends Component {
         <NavBar />
         <Switch>
           <Route onUpdate={window.scrollTo(0, 0)} exact path="/" component={HomePage} />
-          <Route onUpdate={window.scrollTo(0, 0)} path="/application" component={Application} />
+          <Route onUpdate={window.scrollTo(0, 0)} path="/application" component={PageApplication} />
           <Route onUpdate={window.scrollTo(0, 0)} path="/alimentation" component={PageAlimentation} />
           <Route onUpdate={window.scrollTo(0, 0)} path="/mode" component={PageMode} />
           <Route onUpdate={window.scrollTo(0, 0)} path="/sante_beaute" component={PageSanteBeaute} />

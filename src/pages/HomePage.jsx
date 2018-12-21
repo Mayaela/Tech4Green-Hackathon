@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Formu from '../components-pages/Formu';
 
 class HomePage extends Component {
   constructor(props) {
@@ -14,7 +13,6 @@ class HomePage extends Component {
     return (
       <div className="HomePage">
         Page Accueil
-        <Formu />
       </div>
     );
   }

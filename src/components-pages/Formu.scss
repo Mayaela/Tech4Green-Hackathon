@@ -1,44 +1,85 @@
 @import '../App.scss';
 
 .Formu {
-    padding: 10px 15px;
-    .para {
-        font-size: 0.75rem;
+  padding: 10px 15px;
+  .para {
+    font-size: 0.75rem;
+  }
+  .rating {
+    a {
+        
+      float: right;
+      color: #aaa;
+      text-decoration: none;
+      font-size: 2.75rem;
+      transition: color .4s;
+      &:hover,
+      &:focus,
+      &:hover ~ a,
+      &:focus ~ a {
+        color: $primaryColor;
+        cursor: pointer;
+      }
     }
+  }
+  .red {
+    color: red;
+  }
+  .conditions {
+    text-decoration: underline;
+  }
+  .button-sub {
+    border: 1px solid $primaryColor;
+    background-color: $primaryColor;
+    color: white;
+    box-shadow: 1px 1px grey;
+    &:active {
+      color: $primaryColor;
+      background-color: white;
+    }
+  }
+  .oui {
+    padding-right: 5px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+  @media (max-width: 575.98px) {
     .rating {
-        width: 80px;
-        padding-right: 0rem;
-        a {
-            
-            float: right;
-            color: #aaa;
-            text-decoration: none;
-            font-size: 2.75rem;
-            transition: color .4s;
-            &:hover,
-            &:focus,
-            &:hover ~ a,
-            &:focus ~ a {
-                color: $primaryColor;
-                cursor: pointer;
-            }
-        }
+      width: 40px;
+      
+      padding-right: 0rem;
     }
-    .red {
-        color: red;
-    }
-    .conditions {
-        text-decoration: underline;
-    }
-    .button-submit {
-        border: 1px solid $primaryColor;
-        background-color: $primaryColor;
-        color: white;
-        box-shadow: 1px 1px grey;
-        &:active {
-            color: $primaryColor;
-            background-color: white;
-        }
-    }
-}
+  }
 
+  // Small devices (landscape phones, 576px and up)
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .rating {
+      width: 80px;
+      padding-right: 13rem;
+    }
+  }
+  
+  // Medium devices (tablets, 768px and up)
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .rating {
+      width: 80px;
+      padding-right: 22rem;
+    }
+  }
+  
+  // Large devices (desktops, 992px and up)
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    .rating {
+      width: 80px;
+      padding-right: 33rem;
+    }
+  }
+  
+  // Extra large devices (large desktops, 1200px and up)
+  @media (min-width: 1200px) {
+    .rating {
+      width: 80px;
+      padding-right: 66rem;
+    }
+  }
+}

@@ -5,7 +5,9 @@
   .button-category {
     border: 1px solid $primaryColor;
     background-color: white;
-    margin: 1rem 1rem;
+    margin: 1rem 0.25rem;
+    padding: 0.5rem 0.5rem;
+    box-shadow: 1px 1px grey;
     .lien-category {
       color: $primaryColor;
       &:hover{
@@ -17,5 +19,9 @@
       background-color: $primaryColor;
     }
 
+  }
+  .bar-menu {
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }

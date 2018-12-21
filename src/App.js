@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Route, Switch } from 'react-router-dom';
-import PageApplication from './components/PageApplication';
+import PageApplication from './pages/PageApplication';
 import NavBar from './components/NavBar';
 import HomePage from './pages/HomePage';
 import PageAlimentation from './pages/PageAlimentation';

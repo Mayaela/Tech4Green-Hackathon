@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Route, Switch } from 'react-router-dom';
-import NavBar from './components-pages/NavBar';
+import NavBar from './components/NavBar';
 import HomePage from './pages/HomePage';
 import PageAlimentation from './pages/PageAlimentation';
 import PageMode from './pages/PageMode';

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Applist from '../applist.json';
 import escapeRegExp from 'escape-string-regexp';
-import Link from 'react-dom';
+import { Link } from 'react-router-dom';
 
 class SearchBar extends Component {
   constructor(props) {
@@ -16,8 +16,6 @@ class SearchBar extends Component {
       query: query.trim()
     })
   }
-
-  
 
   render() {
     let showingApplications = [];

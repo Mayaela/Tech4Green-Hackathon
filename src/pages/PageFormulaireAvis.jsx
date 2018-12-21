@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Formu.scss';
+import './PageFormulaireAvis.scss';
 import {
     Row,
     Col,
@@ -13,6 +13,9 @@ import {
     ModalBody,
     ModalFooter
 } from 'reactstrap';
+
+import { Link } from 'react-router-dom';
+
 
 class Formu extends Component {
   constructor(props) {
@@ -109,6 +112,7 @@ class Formu extends Component {
             <FormGroup check row>
               <Col sm={{ size: 6, offset: 6 }}>
                 <Button className="button-sub" type="submit">Publier mon avis</Button>
+                <Link to="/application/geev"><Button className="button-sub" type="button">Annuler</Button></Link>
                 <Modal isOpen={this.state.modal} toggle={this.toggle} className={this.props.className}>
                   <ModalHeader toggle={this.toggle}>Enregistrement</ModalHeader>
                   <ModalBody>

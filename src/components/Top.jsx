@@ -29,7 +29,7 @@ class Top extends Component {
               <CardImg top className="card-image" src="/medias/geev.png" alt="Geev" />
               <CardBody>
                 <CardTitle>GEEV</CardTitle>
-                <Link to="/">Plus de détails</Link>
+                <Link to="/application/geev">Plus de détails</Link>
               </CardBody>
             </Card>
           </Col>

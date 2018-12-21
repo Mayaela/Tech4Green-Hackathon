@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import {
   Card,
   CardImg,
@@ -19,12 +20,15 @@ const CardCategory = (props) => {
           Image.map((oneimage) => (
             <Col md="4" xs="12" lg="3" >
               <Card className="card-size">
-              <div className="image-size">
-                <CardImg top width="100%" src={oneimage.image} alt="Image alimentation" />
-              </div>
+                <div className="image-size">
+                  <CardImg top width="100%" src={oneimage.image} alt="Image alimentation" />
+                </div>
                 <CardBody>
-                  <CardTitle>{oneimage.title}</CardTitle>
-                  <Button className="button-color">Explorer</Button>
+                    <CardTitle>{oneimage.title}</CardTitle>
+                    <Button className="button-category" tag={Link} to="/">
+                      Explorer
+                  </Button>
+                  
                 </CardBody>
               </Card>
             </Col>

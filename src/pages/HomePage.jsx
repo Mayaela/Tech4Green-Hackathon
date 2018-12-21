@@ -1,4 +1,8 @@
 import React, { Component } from 'react';
+import SearchBar from '../components/SearchBar';
+import { Container, Row, Col } from 'reactstrap';
+
+import './HomePage.scss';
 
 class HomePage extends Component {
   constructor(props) {
@@ -11,7 +15,7 @@ class HomePage extends Component {
   render() {
     return (
       <div className="HomePage">
-        Page Accueil
+        
       </div>
     );
   }

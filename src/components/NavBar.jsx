@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './NavBar.scss';
 import { Link } from 'react-router-dom';
 import {
@@ -11,7 +11,7 @@ import {
   Button,
 } from 'reactstrap';
 
-class NavBar extends Component {
+export default class NavBar extends React.Component {
   constructor(props) {
     super(props);
 
@@ -31,67 +31,47 @@ class NavBar extends Component {
     const { collapsed } = this.state;
     return (
       <div className="NavBar">
-        <Navbar className="bar-menu" light expand="lg">
+        <Navbar light expand="md">
           <NavbarBrand>
             <Link to="/">
               <img
-                src="/medias/logo-petit.png"
-                alt="navbarLogo"
+                src="medias/logo.png"
+                alt="Logo"
               />
             </Link>
           </NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={!collapsed} navbar>
             <Nav className="ml-auto" navbar>
-              <Button className="button-category">
-                <NavItem className="lien-category" tag={Link} to="/alimentation">
+              <Button className="button-category" tag={Link} to="/alimentation">
                   Alimentation
-                </NavItem>
               </Button>
-              <Button className="button-category">
-                <NavItem className="lien-category" tag={Link} to="/mode">
+              <Button className="button-category" tag={Link} to="/mode">
                   Mode
-                </NavItem>
               </Button>
-              <Button className="button-category">
-                <NavItem className="lien-category" tag={Link} to="/sante_beaute">
-                  Santé et Beauté
-                </NavItem>
+              <Button className="button-category" tag={Link} to="/sante_beaute">
+                  Santé & Beauté
               </Button>
-              <Button className="button-category">
-                <NavItem className="lien-category" tag={Link} to="/maison_ecolo">
+              <Button className="button-category" tag={Link} to="/maison_ecolo">
                   Maison écologique
-                </NavItem>
               </Button>
-              <Button className="button-category">
-                <NavItem className="lien-category" tag={Link} to="/transports">
+              <Button className="button-category" tag={Link} to="/transports">
                   Transports
-                </NavItem>
               </Button>
-              <Button className="button-category">
-                <NavItem className="lien-category" tag={Link} to="/technologie">
+              <Button className="button-category" tag={Link} to="/technologie">
                   Technologie
-                </NavItem>
               </Button>
-              <Button className="button-category">
-                <NavItem className="lien-category" tag={Link} to="/don_troc">
+              <Button className="button-category" tag={Link} to="/don_troc">
                   Dons et Trocs
-                </NavItem>
               </Button>
-              <Button className="button-category">
-                <NavItem className="lien-category" tag={Link} to="/occasions">
-                  Occasions
-                </NavItem>
-              </Button>
-              <Button className="button-category">
-                <NavItem className="lien-category" tag={Link} to="/reparation">
+              <Button className="button-category" tag={Link} to="/reparation">
                   Réparations
-                </NavItem>
               </Button>
-              <Button className="button-category">
-                <NavItem className="lien-category" tag={Link} to="/sengager">
+              <Button className="button-category" tag={Link} to="/sengager">
                   S'engager
-                </NavItem>
+              </Button>
+              <Button className="button-category" tag={Link} to="/categories">
+                  Toutes les Catégories
               </Button>
             </Nav>
           </Collapse>
@@ -100,5 +80,3 @@ class NavBar extends Component {
     );
   }
 }
-
-export default NavBar;

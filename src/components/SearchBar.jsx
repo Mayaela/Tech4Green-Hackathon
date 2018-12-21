@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import Applist from '../applist.json';
 import escapeRegExp from 'escape-string-regexp';
 import { Link } from 'react-router-dom';
+import {Container} from 'reactstrap';
+
+import './SearchBar.scss';
 
 class SearchBar extends Component {
   constructor(props) {
@@ -27,7 +30,7 @@ class SearchBar extends Component {
     }
 
     return (
-      <div className="SearchBar">
+      <Container fluid className="SearchBar">
         <input
           type="text"
           value={this.state.query}
@@ -43,7 +46,7 @@ class SearchBar extends Component {
           ))
           }
         </ul>
-      </div>
+      </Container>
     );
   }
 }

@@ -8,7 +8,7 @@ import {
   Col,
   Row
 } from 'reactstrap';
-import './Carte.scss';
+import './CardCategory.scss';
 import Image from '../image.json';
 
 const CardCategory = (props) => {

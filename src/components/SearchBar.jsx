@@ -35,7 +35,7 @@ class SearchBar extends Component {
           type="text"
           value={this.state.query}
           onChange={event => this.updateQuery(event.target.value)}
-          placeholder="Chercher Application"
+          placeholder="Chercher un site ou une application"
         />
         <ul className='application-list'>
           {showingApplications.map((appli) => (

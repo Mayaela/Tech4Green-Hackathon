@@ -16,9 +16,15 @@ class HomePage extends Component {
   render() {
     return (
       <div className="HomePage">
-
         <Top />
-        <Qui />
+        <Container>
+          <Row>
+            <Col className="col-12 mt-5 mb-3">
+              <Qui />
+            </Col>
+          </Row>
+        </Container>
+
 
       </div>
     );

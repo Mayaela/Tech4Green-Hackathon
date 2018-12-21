@@ -32,10 +32,10 @@ export default class NavBar extends React.Component {
     return (
       <div className="NavBar">
         <Navbar light expand="md">
-          <NavbarBrand>
+          <NavbarBrand className="ml-5">
             <Link to="/">
               <img
-                src="medias/logo.png"
+                src="/medias/logo.png"
                 alt="Logo"
               />
             </Link>

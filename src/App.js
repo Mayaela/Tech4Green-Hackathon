@@ -16,7 +16,6 @@ import PageSengager from './pages/PageSengager';
 import PageCatégories from './pages/PageCatégories';
 import SearchBar from './components/SearchBar';
 import {Container} from 'reactstrap';
-import SearchBar from './components/SearchBar';
 import PageApplicationGeev from './pages/PageApplicationGeev';
 import PageFormulaireAvis from './pages/PageFormulaireAvis';
 
@@ -54,6 +53,9 @@ class App extends Component {
             </li>
             <li>
                 <a>Contactez-nous</a>
+            </li>
+            <li>
+                <a>Notre Page Facebook</a>
             </li>
           </ul>
         </Container>

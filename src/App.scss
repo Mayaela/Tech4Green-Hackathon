@@ -6,6 +6,11 @@ $primaryColor: #98C11E;
     list-style-type: none;
   }
 
+  .section-app {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
   .footer {
     position: relative;
     bottom: 0;
@@ -19,6 +24,7 @@ $primaryColor: #98C11E;
     margin: 0;
     color: white;
     font-size: 0.9rem;
+    margin-top: 2rem;
 
   }
   font-size: 1rem;

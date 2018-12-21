@@ -247,10 +247,10 @@
 {
   "id": 27,
   "Company": "Geev",
-  "Category": "Dons, trocs",
+  "Category": "Dons & Troc",
   "Language": "Français",
-  "Price": "gratuit",
-  "Description": "GEEV, une solution enrichissante : le don de main à main est une expérience humaine gratifiante. GEEV propose des annonces entre particuliers et encourage les rencontres avec des personnes habitant dans votre ville !",
+  "Price": "gratuit et premium",
+  "Description": "GEEV, une solution enrichissante : le don de main à main est une expérience humaine gratifiante et un geste contre le gaspillage. <br/>GEEV propose des annonces entre particuliers et encourage les rencontres avec des personnes habitant dans votre ville !",
   "Support": "Web, Android, Iphone",
   "Lien" : "https://www.geev.com/"
 },

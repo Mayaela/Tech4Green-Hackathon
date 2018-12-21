@@ -32,9 +32,9 @@ class SearchBar extends Component {
           type="text"
           value={this.state.query}
           onChange={event => this.updateQuery(event.target.value)}
-          placeholder="Chercher Application"
+          placeholder="Rechercher une application ou un site"
         />
-          <button className="button-green">Chercher</button>
+          <button className="button-green">Rechercher</button>
         <ul className='application-list'>
           {showingApplications.map((appli) => (
             <li key={appli.id} className='application-list-name'>

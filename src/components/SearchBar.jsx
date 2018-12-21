@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Applist from '../applist.json';
 import escapeRegExp from 'escape-string-regexp';
+import Link from 'react-dom';
 
 class SearchBar extends Component {
   constructor(props) {
@@ -16,11 +17,13 @@ class SearchBar extends Component {
     })
   }
 
+  
+
   render() {
     let showingApplications = [];
     if(this.state.query){
       const match = new RegExp(escapeRegExp(this.state.query), 'i')
-      showingApplications = Applist.filter((appli) => match.test(appli.company))
+      showingApplications = Applist.filter((appli) => match.test(appli.Company))
     } else{
       showingApplications = [];
     }
@@ -31,18 +34,17 @@ class SearchBar extends Component {
           type="text"
           value={this.state.query}
           onChange={event => this.updateQuery(event.target.value)}
-          placeholder="Search Application"
+          placeholder="Chercher Application"
         />
-          <button>Search</button>
+          <button className="button-green">Chercher</button>
         <ul className='application-list'>
           {showingApplications.map((appli) => (
             <li key={appli.id} className='application-list-name'>
-              {appli.company}
+              {appli.Company}
             </li>
           ))
           }
         </ul>
-      
       </div>
     );
   }

@@ -19,10 +19,12 @@ const Carte = (props) => {
           Image.map((oneimage) => (
             <Col md="4" xs="12" lg="3" >
               <Card className="card-size">
-                <CardImg className="image-size" top width="100%" src={oneimage.image} alt="Image alimentation" />
+              <div className="image-size">
+                <CardImg top width="100%" src={oneimage.image} alt="Image alimentation" />
+              </div>
                 <CardBody>
                   <CardTitle>{oneimage.title}</CardTitle>
-                  <Button>Plus Détails</Button>
+                  <Button className="button-color">Plus Détails</Button>
                 </CardBody>
               </Card>
             </Col>

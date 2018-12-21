@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Route, Switch } from 'react-router-dom';
-import SearchBar from './components-pages/SearchBar';
-import Carte from './components-pages/Carte';
+import Application from './components/Application';
 import './App.scss';
 
 class App extends Component {
@@ -9,8 +8,9 @@ class App extends Component {
     return (
       <div className="App">
         <Switch>
-          {/* <Route onUpdate={window.scrollTo(0, 0)} exact path="/" component={HomePage} /> */}
-          {/* <Route onUpdate={window.scrollTo(0, 0)} path="/alimentation" component={PageAlimentation} />
+          <Route onUpdate={window.scrollTo(0, 0)} path="/application" component={Application} />
+          <Route onUpdate={window.scrollTo(0, 0)} exact path="/" component={HomePage} />
+          <Route onUpdate={window.scrollTo(0, 0)} path="/alimentation" component={PageAlimentation} />
           <Route onUpdate={window.scrollTo(0, 0)} path="/mode" component={PageMode} />
           <Route onUpdate={window.scrollTo(0, 0)} path="/sante_beaute" component={PageSanteBeaute} />
           <Route onUpdate={window.scrollTo(0, 0)} path="/maison_ecolo" component={PageMaisonEcolo} />
@@ -18,11 +18,8 @@ class App extends Component {
           <Route onUpdate={window.scrollTo(0, 0)} path="/technologie" component={PageTechnologie} />
           <Route onUpdate={window.scrollTo(0, 0)} path="/don_troc" component={PageDonTroc} />
           <Route onUpdate={window.scrollTo(0, 0)} path="/occasions" component={PageOccasions} />
-          <Route onUpdate={window.scrollTo(0, 0)} path="/reparation" component={PageReparation} />
-          <Route onUpdate={window.scrollTo(0, 0)} path="/sengager" component={PageSengager} /> */}
+          <Route onUpdate={window.scrollTo(0, 0)} path="/reparation" component={PageReparation} />          <Route onUpdate={window.scrollTo(0, 0)} path="/sengager" component={PageSengager} />
         </Switch>
-        <SearchBar />
-        <Carte />
       </div>
     );
   }

@@ -3,7 +3,8 @@ import Applist from '../applist.json';
 import './PageApplicationGeev.scss';
 import {
   Col,
-  Row
+  Row,
+  Button
 } from 'reactstrap';
 
 import { Link } from 'react-router-dom';
@@ -35,7 +36,7 @@ Probléme de notifications: il arrive régulièrement que les notifications ne s
         Jennyfer : “Très bonne application lorsqu’on a des remords à jeter des objets qui peuvent encore servir mais qui sont invendables ! Cette application est dans l’air du temps de l’anti gâchis ! J’enlève néanmoins une étoile à cause du manque de notifications lors de la réception d’un message cela m’a déjà mis dans des situations inconfortables face à des geevers qui attendaient ma réponse.”
       </Col>
     </Row>
-    <Link className="lien" to="/formulaire-avis">Ajouter un avis</Link>
+    <Link className="lien" to="/formulaire-avis"><Button className="button-color">Ajouter un avis</Button></Link>
   </div>
 );
 

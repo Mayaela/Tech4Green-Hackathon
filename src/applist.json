@@ -1,5 +1,5 @@
 [{
-  "id": "1",
+  "id": 1,
   "Company": "Planet Ocean",
   "Category": "Alimentation",
   "Language": "Anglais",
@@ -7,7 +7,7 @@
   "Support": "Android, Iphone"
 },
 {
-  "id": "2",
+  "id": 2,
   "Company": "Too Good To Go",
   "Category": "Alimentation",
   "Language": "Français, Allemand, Anglais, Basque, Catalan, Danois, Espagnol, Galicien, Norvégien, Néerlandais",
@@ -17,7 +17,7 @@
   "Lien": "https://toogoodtogo.fr/fr"
 },
 {
-  "id": "3",
+  "id": 3,
   "Company": "Astuces Ecolo",
   "Category": "Alimentation, Général",
   "Language": "Français, Anglais",
@@ -26,7 +26,7 @@
   "Support": "Iphone"
 },
 {
-  "id": "4",
+  "id": 4,
   "Company": "Fruits et légumes de saison",
   "Category": "Alimentation",
   "Language": "Français",
@@ -35,7 +35,7 @@
   "Support": "Android, Iphone"
 },
 {
-  "id": "5",
+  "id": 5,
   "Company": "Vinted",
   "Category": "Mode",
   "Language": "Français",
@@ -44,7 +44,7 @@
   "Support": "Android, Iphone"
 },
 {
-  "id": "6",
+  "id": 6,
   "Company": "Fair Fashion",
   "Category": "Mode",
   "Language": "Français, Allemand, Anglais, Polonais",
@@ -53,7 +53,7 @@
   "Support": "Android, Iphone"
 },
 {
-  "id": "7",
+  "id": 7,
   "Company": "Good on you",
   "Category": "Mode",
   "Language": "Anglais",
@@ -62,7 +62,7 @@
   "Support": "Web, Android, Iphone"
 },
 {
-  "id": "8",
+  "id": 8,
   "Company": "Depop",
   "Category": "Mode",
   "Language": "Anglais, Italien",
@@ -72,7 +72,7 @@
   "Lien": "https://www.depop.com"
 },
 {
-  "id": "9",
+  "id": 9,
   "Company": "Natur'Home",
   "Category": "Santé",
   "Language": "Français, Anglais",
@@ -81,7 +81,7 @@
   "Support": "Android, Iphone"
 },
 {
-  "id": "10",
+  "id": 10,
   "Company": "Breathe Up",
   "Category": "Santé",
   "Language": "Français, Anglais",
@@ -91,17 +91,17 @@
   "Lien" : "https://groupe-tera.com/breathe-up-2/"
 },
 {
-  "id": "11",
+  "id": 11,
   "Company": "Plum Labs",
   "Category": "Santé",
   "Language": "Français, Anglais, Arabe, Espagnol, Italien",
   "Price": "gratuit",
-  "Description": "Cette mise à jour majeur vous donne accès à des prévisions sur la qualité de l’air dans toutes les villes du monde. Une couverture mondiale de l’Alabama au Zanzibar pour vous aider à trouver l’air pur.",
+  "Description": "Cette mise à jour majeure vous donne accès à des prévisions sur la qualité de l’air dans toutes les villes du monde. Une couverture mondiale de l’Alabama au Zanzibar pour vous aider à trouver l’air pur.",
   "Support": "Android, Iphone",
   "Lien" : "https://plumelabs.com/fr/"
 },
 {
-  "id": "12",
+  "id": 12,
   "Company": "Yuka",
   "Category": "Santé, Beauté",
   "Language": "Français",
@@ -111,7 +111,7 @@
   "Lien" : "https://yuka.io"
 },
 {
-  "id": "13",
+  "id": 13,
   "Company": "Guide du tri par eco emballages",
   "Category": "Maison écolo",
   "Language": "Français",
@@ -121,7 +121,7 @@
   "Lien" : "http://www.ecoemballages.fr/grand-public/trier-cest-facile/le-guide-du-tri"
 },
 {
-  "id": "14",
+  "id": 14,
   "Company": "Zero Waste Objective",
   "Category": "Maison écolo",
   "Language": "Français, Anglais",
@@ -130,7 +130,7 @@
   "Support": "Android"
 },
 {
-  "id": "15",
+  "id": 15,
   "Company": "90 jours",
   "Category": "Santé",
   "Language": "Français",
@@ -140,7 +140,7 @@
   "Lien" : "https://90jours.org"
 },
 {
-  "id": "16",
+  "id": 16,
   "Company": "Wag - We Act for Good",
   "Category": "Généraliste",
   "Language": "Français",
@@ -149,7 +149,7 @@
   "Support": "Web, Android, Iphone"
 },
 {
-  "id": "17",
+  "id": 17,
   "Company": "Breathe Up",
   "Category": "Santé",
   "Language": "Français, Anglais",
@@ -159,7 +159,7 @@
   "Lien" : "https://www.wwf.fr/agir-au-quotidien/we-act-for-good"
 },
 {
-  "id": "18",
+  "id": 18,
   "Company": "Klaxit",
   "Category": "Mobilité",
   "Language": "Français, Anglais",
@@ -168,7 +168,7 @@
   "Support": "Web, Android, Iphone"
 },
 {
-  "id": "19",
+  "id": 19,
   "Company": "Openbike Now",
   "Category": "Mobilité",
   "Language": "Français",
@@ -178,7 +178,7 @@
   "Lien" : "http://openbikenow.com"
 },
 {
-  "id": "20",
+  "id": 20,
   "Company": "Chargemap",
   "Category": "Mobilité",
   "Language": "Français, Allemand, Anglais, Espagnol, Italien, Néerlandais, Portugais",
@@ -188,7 +188,7 @@
   "Lien" : "https://fr.chargemap.com"
 },
 {
-  "id": "21",
+  "id": 21,
   "Company": "Indigo Weel",
   "Category": "Mobilité",
   "Language": "Français, Anglais, Espagnol",
@@ -198,7 +198,7 @@
   "Lien" : "https://www.indigoweel.com"
 },
 {
-  "id": "22",
+  "id": 22,
   "Company": "EcoGuide IT",
   "Category": "Technologie",
   "Language": "Français, Anglais, Espagnol, Italien",
@@ -208,7 +208,7 @@
   "Lien" : "http://www.ecoguide-it.com/fr/"
 },
 {
-  "id": "23",
+  "id": 23,
   "Company": "Lilo browser",
   "Category": "Technologie",
   "Language": "Français, Allemand, Anglais, Arabe, Bulgare, Catalan, Chinois simplifié, Chinois traditionnel, Coréen, Croate, Danois, Espagnol, Finnois, Grec, Hindi, Hongrois, Hébreu, Indonésien, Italien, Japonais, Lituanien, Malais, Norvégien, Néerlandais, Persan, Polonais, Portugais, Roumain, Russe, Serbe, Slovaque, Suédois, Tchèque, Thaï, Turc, Ukrainien, Vietnamien",
@@ -217,7 +217,7 @@
   "Support": "Android, Iphone"
 },
 {
-  "id": "24",
+  "id": 24,
   "Company": "Ecogator",
   "Category": "Technologie",
   "Language": "Français, Allemand, Anglais, Arabe, Chinois simplifié, Chinois traditionnel, Danois, Espagnol, Grec, Hébreu, Italien, Norvégien, Néerlandais, Polonais, Portugais, Russe, Slovène, Suédois, Tchèque, Turc",
@@ -226,7 +226,7 @@
   "Support": "Android, Iphone"
 },
 {
-  "id": "25",
+  "id": 25,
   "Company": "My Troc",
   "Category": "Dons, trocs",
   "Language": "Français",
@@ -236,7 +236,7 @@
   "Lien" : "https://mytroc.fr"
 },
 {
-  "id": "26",
+  "id": 26,
   "Company": "Ruecup",
   "Category": "Dons, trocs",
   "Language": "Français",
@@ -245,7 +245,7 @@
   "Support": "Aptoide"
 },
 {
-  "id": "27",
+  "id": 27,
   "Company": "Geev",
   "Category": "Dons, trocs",
   "Language": "Français",
@@ -255,7 +255,7 @@
   "Lien" : "https://www.geev.com/"
 },
 {
-  "id": "28",
+  "id": 28,
   "Company": "Smartcycle",
   "Category": "Dons, trocs",
   "Language": "Français",
@@ -264,7 +264,7 @@
   "Support": "Web, Android, Iphone"
 },
 {
-  "id": "29",
+  "id": 29,
   "Company": "Scell",
   "Category": "Occasions",
   "Language": "Français, Anglais, Néerlandais",
@@ -273,7 +273,7 @@
   "Support": "Android, Iphone"
 },
 {
-  "id": "30",
+  "id": 30,
   "Company": "Help my bike",
   "Category": "Réparation",
   "Language": "Français",
